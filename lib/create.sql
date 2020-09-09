@@ -4,16 +4,16 @@ CREATE TABLE projects (
     category TEXT,
     funding_goal INTEGER,
     start_date DATE,
-    end_date DATE,
+    end_date DATE
 )
 
--- CREATE TABLE user (
---     id INTEGER PRIMARY KEY,
---     name TEXT,
---     age INTEGER,
--- )
+CREATE TABLE user (
+    id INTEGER PRIMARY KEY,
+    name TEXT,
+    age INTEGER
+)
 
 -- CREATE TABLE pledge (
 --     id INTEGER PRIMARY KEY,
---     amount INTEGER,
+--     amount INTEGER
 -- )
